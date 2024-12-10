@@ -50,6 +50,19 @@ console.log(result);
 const cubeResult = arr.map(cube); //cube is function passed as an argument
 console.log(cubeResult);
 
+
+/**
+ * when to use map function ?
+ * In any situation when we have to do an operation on every element of the array
+ * and store the result in a new array, we use map function
+ * and store the result of each operation
+ * map can be a good option
+ * 
+ * For Example:
+ * Array of products object -> we have to calculate the price of each product after applying some discount
+ * 
+ */
+
 const evenOrOdd = arr.map(isEvenOrOdd); //isEvenOrOdd is function passed as an argument
 console.log(evenOrOdd);
 
