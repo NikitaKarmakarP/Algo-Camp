@@ -3,3 +3,10 @@
 # 1) Higher Order fn
 - **These are functions that depends & operate an other fn** 
 - **Higher order fn take another fn as an argument and then execute the logic**
+**Example:**
+  function gum(){
+  }
+  function *fun* (gum){
+  gum();
+  }
+  **Here *fun* is higher order function** 
