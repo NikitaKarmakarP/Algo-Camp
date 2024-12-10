@@ -39,3 +39,16 @@ arr.short(); // it sorts the given array // [exception] -> this might arrange el
  * 
  * */ 
 console.log(arr);
+
+let b = [1,10,9,100,100,11,12,13,14,2,3]; // unsorted array
+
+// sort b in increasing order
+
+b.sort(function(a, b){
+    // if a < b -> a - b is negative then a comes before bn-> if cmp function gives negative than a is placed before b(a<b)
+    // if a > b -> a - b is positive then b comes before a -> if cmp function gives positive than b is placed before a(a>b)
+    return a - b;
+}); // sort is HOF ,, the sort function is taking another function as an argument
+
+console.log(b);
+
