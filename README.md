@@ -5,8 +5,13 @@
 - **Higher order fn take another fn as an argument and then execute the logic**
 **Example:**
   function gum(){
+
   }
+
   function *fun* (gum){
+
   gum();
+
   }
+
   **Here *fun* is higher order function** 
