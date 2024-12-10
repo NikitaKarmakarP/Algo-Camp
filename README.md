@@ -18,7 +18,7 @@
 
   **Here *fun* is higher order function** 
 
-# Assigning a function to a variable
+# 2) Assigning a function to a variable
 # js
 
 const foo = () => {
@@ -34,7 +34,7 @@ foo(); // Invoke it using the variable
 
 **Note:** **Even if your function was named, you can use the variable name to invoke it. Naming it will be helpful when debugging your code. But it won't affect the way we invoke it.**
 
-# Passing a function as an argument
+# 3) Passing a function as an argument
 # js
 
 function sayHello() {
@@ -59,7 +59,7 @@ greeting(sayHello, "JavaScript!");
 
 **Note: The function that we pass as an argument to another function is called a callback function. sayHello() is a callback function.**
 
-# Returning a function
+# 4) Returning a function
 # js
 
 function sayHello() {
