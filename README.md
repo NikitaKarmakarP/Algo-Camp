@@ -1,4 +1,8 @@
 # Algo-Camp
+**"Unlocking the Power of Functional Programming: Dive into JavaScript with practical examples and intuitive concepts.**
+
+**"✨ Welcome to Algo-Camp! 🚀 Learn, Code, and Master JavaScript with fun and practical examples! 🌟"**
+
 # Here I upload all the documents al the code which I learn from algo camp
 # 1) Higher Order fn
 - **These are functions that depends & operate an other fn** 
