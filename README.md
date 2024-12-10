@@ -75,3 +75,5 @@ function sayHello() {
 **In this example, we are returning a function from another function - We can return a function because functions in JavaScript are treated as values.**
 
 **Note: A function that returns a function or takes other functions as arguments is called a higher-order function.**
+
+**One of the higher order function is map function**
