@@ -66,3 +66,48 @@ square(); // this will not work as square is a function and it needs an argument
  * Array of products object -> we have to calculate the price of each product after applying some discount
  * 
  */
+
+
+
+/**
+ * 
+ * if the function is not defined and we are passing it as an argument to another function
+ * if the function that we have to do an operation on every element of the array
+ * and store the result of each operation in a new array
+ * 
+ * For Example:
+ * Array of products object -> we have to calculate the price of each product after applying some discount
+ */
+
+const newArr = [9,8,7,6,5];
+
+/**
+ * if the function is not defined and we are passing it as an argument to another function
+ * then first argument will be accession the acctual value
+ * second argument will be accession index of that value 
+ */
+
+function print(element, idx){
+    return 'Element at index ${idx} is ${element}';
+}
+
+/**
+ * here map is looking over every element of the array
+ * and then passsing element and index to the print function
+ */
+
+const result2 = newArr.map(print);
+console.log(result2);
+
+
+function customMapper(arr, fn){
+    let result = [];
+    for(let i = 0; i < arr.length; i++){
+        result.push(fn(arr[i], i));
+    }
+    return newArr;
+}
+
+
+const value = customMapper(newArr, print);
+console.log(value);
