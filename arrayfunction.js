@@ -50,6 +50,10 @@ console.log(result);
 const cubeResult = arr.map(cube); //cube is function passed as an argument
 console.log(cubeResult);
 
+const evenOrOdd = arr.map(isEvenOrOdd); //isEvenOrOdd is function passed as an argument
+console.log(evenOrOdd);
+
+square(); // this will not work as square is a function and it needs an argument
 
 /**
  * when to use map function ?
@@ -62,8 +66,3 @@ console.log(cubeResult);
  * Array of products object -> we have to calculate the price of each product after applying some discount
  * 
  */
-
-const evenOrOdd = arr.map(isEvenOrOdd); //isEvenOrOdd is function passed as an argument
-console.log(evenOrOdd);
-
-square(); // this will not work as square is a function and it needs an argument
