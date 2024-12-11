@@ -358,3 +358,12 @@ document.querySelector('form').onsubmit = formUploader.submit
 (if we execute valid ecmascript todo viz given by the stackholders)
 
 **conole.log is not a core javascript feature**
+
+## POSIX defines: 
+- Application programming interfaces (APIs) 
+- Command line shells 
+- Utility interfaces 
+- A standard interface and environment 
+- Common utility programs 
+- Fundamental services needed to build POSIX-compliant applications 
+- Standard semantics and syntax 
