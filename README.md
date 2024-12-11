@@ -356,3 +356,5 @@ document.querySelector('form').onsubmit = formUploader.submit
 2) JS is Single threaded
 
 (if we execute valid ecmascript todo viz given by the stackholders)
+
+**conole.log is not a core javascript feature**
