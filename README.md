@@ -433,6 +433,8 @@ new Promise (function (**resolve,  reject**){
 
 // time consuming task
 
+resolve();
+
 });
 
 **resolve, reject** they are function
