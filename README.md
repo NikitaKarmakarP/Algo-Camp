@@ -422,10 +422,10 @@ x = fetch ("http://www.xyz.com")
 
 **keyward::** new
 
-new Promises(f){
+**new** Promises(f){
 }
 
-**Constructour:(f):: the constructour expects a callback
+**Constructour:(f)::** the constructour expects a callback
 
 new Promise (function (resolve,  reject){
 // inside the function we can write our 
