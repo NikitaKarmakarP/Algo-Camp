@@ -376,13 +376,13 @@ document.querySelector('form').onsubmit = formUploader.submit
 - In that promises objects we can attach the functionally we want h execute once the future task is done
 - once the future task is done, promises will automatically exec the attacted functionallity
 
-  **Example::**
+**Example::**
 
-  fetch("http:www.xyz.com, function exec(){
+fetch("http:www.xyz.com, function exec(){
 
-  console.log ("dome")
+console.log ("dome")
 
-  })
+})
 
 **Example**
 
