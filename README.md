@@ -418,4 +418,17 @@ x = fetch ("http://www.xyz.com")
 ## State:
 - **Pending::** **when we create a new promise object this is the default state, it represents work in pogress**
 - **fulfiled::** **if the operation iscompleted sussesfully**
-- **rejected::**if op was not succesfull**
+- **rejected::** **if op was not succesfull**
+
+**keyward::** new
+
+new Promises(f){
+}
+
+**Constructour:(f):: the constructour expects a callback
+
+new Promise (function (resolve,  reject){
+// inside the function we can write our 
+// time consuming task
+
+});
