@@ -411,3 +411,11 @@ x = fetch ("http://www.xyz.com")
 **fetch::** **assume fetch is written vary promises then, it will immediately return a promise object which will act as a placeholder**
 
 **placeholder::** **for the result**
+
+## How to create a promise
+
+- Creation of a promise object is sycn in nature
+  ## State:
+- **Pending::** **when we create a new promise object this is the default state, it represents work in pogress**
+- **fulfiled::** **if the operation iscompleted sussesfully**
+- **rejected::**if op was not succesfull**
