@@ -372,6 +372,7 @@ document.querySelector('form').onsubmit = formUploader.submit
 - Readdibility Enhance
 - They can solve the problem of IOC
 - In JS Promises are speacial type of objects that get returned immediately when we call them
+- Promises acts as a Placeholder for the data use hope to get back something in future
 
 **Example**
 
@@ -390,3 +391,11 @@ fun(10, function exec()){
 console.log("done");
 
 3);
+
+## Example
+
+x = fetch ("http://www.xy2.com")
+
+**fetch::** **assume fetch is written vary promises then, it will immediately return a promise object which will act as a placeholder**
+
+**placeholder::** **for the result**
