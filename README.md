@@ -428,7 +428,9 @@ x = fetch ("http://www.xyz.com")
 **Constructour:(f)::** the constructour expects a callback
 
 new Promise (function (resolve,  reject){
+
 // inside the function we can write our 
+
 // time consuming task
 
 });
