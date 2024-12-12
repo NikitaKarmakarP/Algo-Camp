@@ -367,3 +367,26 @@ document.querySelector('form').onsubmit = formUploader.submit
 - Common utility programs 
 - Fundamental services needed to build POSIX-compliant applications 
 - Standard semantics and syntax 
+
+## Promises
+- Readdibility Enhance
+- They can solve the problem of IOC
+- In JS Promises are speacial type of objects that get returned immediately when we call them
+
+**Example**
+
+function fun(x,cb){
+
+for (i=0;i<x;i++){
+
+cb(); //cb();
+
+}
+
+**Now,**
+
+fun(10, function exec()){
+
+console.log("done");
+
+3);
