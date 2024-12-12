@@ -378,9 +378,11 @@ document.querySelector('form').onsubmit = formUploader.submit
 
   **Example::**
 
-  fetch("http:www.xyz.com, function exec() i
+  fetch("http:www.xyz.com, function exec(){
 
   console.log ("dome")
+
+  })
 
 **Example**
 
@@ -390,15 +392,17 @@ for (i=0;i<x;i++){
 
 cb(); //cb();
 
-}
+}};
 
 **Now,**
 
-fun(10, function exec()){
+fun(10, function exec(){
 
 console.log("done");
 
 3);
+
+});
 
 ## Example
 
