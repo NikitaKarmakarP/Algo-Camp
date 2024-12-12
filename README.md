@@ -415,7 +415,7 @@ x = fetch ("http://www.xyz.com")
 ## How to create a promise
 
 - Creation of a promise object is sycn in nature
-  ## State:
+## State:
 - **Pending::** **when we create a new promise object this is the default state, it represents work in pogress**
 - **fulfiled::** **if the operation iscompleted sussesfully**
 - **rejected::**if op was not succesfull**
