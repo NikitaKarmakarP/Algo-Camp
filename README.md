@@ -373,6 +373,14 @@ document.querySelector('form').onsubmit = formUploader.submit
 - They can solve the problem of IOC
 - In JS Promises are speacial type of objects that get returned immediately when we call them
 - Promises acts as a Placeholder for the data we hope to get back some paranthesis in future
+- In that promises objects we can attach the functionally we want h execute once the future task is done
+- once the future task is done, promises will automatically exec the attacted functionallity
+
+  **Example::**
+
+  fetch("http:www.xyz.com, function exec() i
+
+  console.log ("dome")
 
 **Example**
 
@@ -394,7 +402,7 @@ console.log("done");
 
 ## Example
 
-x = fetch ("http://www.xy2.com")
+x = fetch ("http://www.xyz.com")
 
 **fetch::** **assume fetch is written vary promises then, it will immediately return a promise object which will act as a placeholder**
 
